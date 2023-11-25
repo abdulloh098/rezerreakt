@@ -1,0 +1,1172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #252525;
+}
+
+.container {
+  width: 1280px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #1a1a1a;
+  color: white;
+  gap: 50px;
+  height: 120px;
+  width: 100%;
+
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.text a {
+  color: #fff !important;
+}
+
+.navbar p:hover {
+  color: #44d62c;
+}
+.link {
+  text-decoration: none;
+  color: white;
+  font-size: 8.5px;
+  background: #555555;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link a {
+  color: white;
+  text-decoration: none;
+}
+
+.h1bor {
+  padding: 20px;
+  text-align: center;
+  background: #111111;
+  color: white;
+  width: 100%;
+  height: 200px;
+}
+
+.h1bor h1 {
+  color: #44d62c;
+}
+
+.h1bor h3 {
+  color: #888888;
+}
+
+.back {
+  background: url('https://assets2.razerzone.com/images/pnx.assets/585a94a7b6316023e5ca412a1896d43e/razer-kitsune-desktop-banner.jpg')
+    no-repeat center center/cover;
+  width: 100%;
+  height: 70vh;
+  text-align: center;
+  color: white;
+  padding: 35px;
+}
+
+.back h3 {
+  color: gray;
+}
+
+.back a {
+  color: #44d62c;
+  text-decoration: none;
+}
+
+.vid video {
+  width: 100%;
+  height: 100%;
+}
+
+.car img {
+  width: 360px;
+  height: 380px;
+}
+
+.ota-card {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.car {
+  background: black;
+  color: white;
+}
+
+.car a {
+  padding: 0 9px;
+  text-decoration: none;
+  color: #44d62c;
+}
+
+.car h3 {
+  padding: 0 9px;
+}
+
+.car h4 {
+  padding: 0 9px;
+  color: #999;
+}
+
+.josik {
+  background: url('https://assets2.razerzone.com/images/pnx.assets/0e064526124df6127811074622ca706f/sonic-the-hedgehog-xbox-controller-and-charging-stand-1920x700-desktop.jpg')
+    no-repeat center center/cover;
+
+  width: 100%;
+  height: 70vh;
+  text-align: center;
+  color: white;
+  padding: 35px;
+}
+
+.josik h3 {
+  color: #999;
+}
+
+.josik a {
+  color: #44d62c;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.game {
+  background: url('https://assets2.razerzone.com/images/pnx.assets/cd8c66be4b03c7637164d056fd453195/gamesetmatch-category-1920x700-desktop.jpg')
+    no-repeat center center/cover;
+  width: 100%;
+  height: 70vh;
+  text-align: center;
+  color: white;
+  padding: 35px;
+}
+
+.game a {
+  color: #44d62c;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.game h3 {
+  color: #999;
+}
+
+.chroma {
+  background: url('https://assets2.razerzone.com/images/pnx.assets/d97d6645a23af786a27123af21877690/razer-wolverine-v2-chroma-category-1920x700-desktop.jpg')
+    no-repeat center center/cover;
+  width: 100%;
+  height: 70vh;
+  text-align: center;
+  color: white;
+  padding: 35px;
+}
+
+.chroma h3 {
+  color: #999;
+}
+
+.chroma a {
+  color: #44d62c;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.conquer {
+  background: url('https://assets2.razerzone.com/images/pnx.assets/1f2c6dbd38e9414c6ed618b0ac283295/connect-compete-conquer-category-2023-1920x700-desktop.jpg')
+    no-repeat center center/cover;
+  width: 100%;
+  height: 70vh;
+  text-align: center;
+  color: white;
+  padding: 35px;
+}
+
+.conquer a {
+  color: #44d62c;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.conquer h3 {
+  color: #999;
+}
+
+.conquer a {
+  color: #44d62c;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.chizma {
+  background: url('https://assets2.razerzone.com/images/pnx.assets/8b828caeca30f807d38978df53d701c9/console-gamepads-engineered-category-desktop.jpg')
+    no-repeat center center/cover;
+  width: 100%;
+  height: 45vh;
+  text-align: start;
+  color: white;
+  padding: 35px;
+}
+
+.chizma a {
+  color: #44d62c;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.chizma h3 {
+  color: #999;
+}
+
+.start h2 {
+  padding: 0 300px;
+}
+
+.start h3 {
+  padding: 0 300px;
+}
+
+.start a {
+  padding: 0 300px;
+}
+
+.foot {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  color: white;
+  padding: 10px;
+  background-color: #111111;
+}
+
+.foot a {
+  color: #999;
+  text-decoration: none;
+  padding: 6px 0;
+}
+
+.mobil h1 {
+  text-align: center;
+  color: #44d62c;
+}
+
+.mobil {
+  padding: 40px;
+  text-align: center;
+}
+
+.mobil h3 {
+  text-align: center;
+  color: #999;
+  gap: 20px;
+}
+
+.edge {
+  background: url('https://assets2.razerzone.com/images/pnx.assets/91baf798ef1e551ef8d4e850c28a0050/razer-edge-1920x700-desktop-cat-banner.jpg')
+    no-repeat center center/cover;
+  width: 100%;
+  height: 60vh;
+  text-align: center;
+  color: white;
+  padding: 35px;
+}
+
+.edge h3 {
+  color: #999;
+}
+
+.edge a {
+  color: #44d62c;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.wake {
+  background: url('https://assets2.razerzone.com/images/pnx.assets/1516aac7dce1363a5b7f97b1f8b6d71b/halloween-2023-1920x400.webp')
+    no-repeat center center/cover;
+
+  width: 100%;
+  height: 45vh;
+  color: white;
+}
+
+.wake span {
+  height: 45vh;
+  display: flex;
+  justify-content: flex-end;
+
+  align-items: center;
+}
+
+.wake h3 {
+  color: #999;
+}
+
+.wake a {
+  color: #44d62c;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.world a {
+  text-decoration: none;
+  color: #44d62c;
+  font-size: 20px;
+}
+
+.world {
+  background: url('https://assets2.razerzone.com/images/pnx.assets/6d5e42cc985b839667f80f80f88e6327/stay-in-sync-1920x700.jpg')
+    no-repeat center center/cover;
+  width: 100%;
+  height: 65vh;
+  text-align: center;
+  color: white;
+  padding: 35px;
+}
+
+.ota-card1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 60px 0;
+  gap: 20px;
+}
+
+.carm {
+  width: 100%;
+  background-color: #111111;
+  color: #fff;
+}
+
+.carm img {
+  width: 100%;
+}
+
+.carm a {
+  text-decoration: none;
+  color: #44d62c;
+}
+
+.mile {
+  background: url('https://assets2.razerzone.com/images/pnx.assets/8d15cb8a565e71ef01f047785d22ce69/gothe-extramile-category-1920x700-desktop.jpg')
+    no-repeat center center/cover;
+  width: 100%;
+  height: 60vh;
+  color: white;
+  text-align: center;
+}
+
+.mile h3 {
+  color: #999;
+}
+
+.mile a {
+  text-decoration: none;
+  color: #44d62c;
+}
+
+.gaming h1 {
+  color: #44d62c;
+  font-size: 40px;
+}
+
+.gaming {
+  text-align: center;
+  padding: 30px;
+  background: black;
+  width: 100%;
+}
+
+.gaming h2 {
+  color: #999;
+}
+
+.container {
+  width: 1280px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.category-links {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 2vh;
+  text-align: center;
+}
+
+.category-links a {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.p1 {
+  width: 100%;
+  height: 40px;
+  background: #555555;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 10px;
+}
+
+.ps-header {
+  padding: 40px 0;
+  background: #111111;
+}
+
+.p2 {
+  text-align: center;
+  color: #44d62c;
+}
+
+.p3 {
+  padding: 40px 0;
+  text-align: center;
+  color: #999999;
+}
+
+.ps-section {
+  padding: 40px;
+  width: 100%;
+  height: max-content;
+}
+
+.cards {
+  gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 40px 0;
+}
+
+.card {
+  border-bottom: 1px solid #44d62c;
+}
+
+.card {
+  background-color: black;
+  color: #fff;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.card h1 {
+  color: #eeeeee;
+}
+
+.card p {
+  color: #888888;
+}
+
+.p4 {
+  padding: 40px 0;
+  text-align: center;
+  background: #111111;
+}
+
+.p4 h1 {
+  color: #44d62c;
+}
+
+.p4 p {
+  color: #888888;
+}
+
+.p5 {
+  padding: 40px 0;
+  gap: 30px;
+}
+
+.p6 {
+  padding: 40px 0;
+  text-align: center;
+  background: #111111;
+}
+
+.p6 h1 {
+  color: #44d62c;
+}
+
+.p6 p {
+  color: #888888;
+}
+
+.p7 {
+  padding: 40px 0;
+  text-align: center;
+  background: #111111;
+}
+
+.p7 h1 {
+  color: #44d62c;
+}
+
+.p7 p {
+  color: #888888;
+}
+
+.razer {
+  padding: 40px 0;
+  gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card1 {
+  background-color: #111111;
+  color: #fff;
+  border-bottom: 1px solid #44d62c;
+}
+
+.card a,
+.card1 a {
+  color: #44d62c;
+}
+
+.card1 img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.card1 h1 {
+  color: #eeeeee;
+}
+
+.card1 p {
+  color: #888888;
+}
+
+.ps-aside {
+  background: url('https://assets2.razerzone.com/images/pnx.assets/d20a9f320f5d60e2b92043b7d4cc2f7a/ms-audio-banner-desktop.jpg')
+    no-repeat center center/cover;
+  width: 100%;
+  height: 400px;
+}
+
+.playtime {
+  padding-top: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.playtime h1 {
+  color: #44d62c;
+}
+
+.playtime p {
+  color: #888888;
+}
+
+.home1 {
+  width: 100%;
+  height: 80vh;
+  background: url('https://assets2.razerzone.com/images/pnx.assets/19139469bcc62860c37806cc9355cdf1/halloween-campaign-homepage-desktop2x.webp')
+    no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+.home1 h1 {
+  font-size: 55px;
+}
+
+.home1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.lanbo {
+  background: url('https://assets2.razerzone.com/images/pnx.assets/19139469bcc62860c37806cc9355cdf1/razer-blade16-lamborghini-homepage-desktop2x.webp')
+    no-repeat center center/cover;
+  width: 100%;
+  height: 80vh;
+  text-align: center;
+  color: white;
+  padding: 35px;
+}
+
+.lanbo a {
+  text-decoration: none;
+  color: white;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.lanbo h1 {
+  font-size: 50px;
+}
+
+.lanbo button {
+  border: none;
+  width: 90px;
+  height: 35px;
+  background: #e9b219;
+}
+
+.mice {
+  background: url('https://assets2.razerzone.com/images/pnx.assets/19139469bcc62860c37806cc9355cdf1/razer-esports-line-homepage-desktop2x-v2.webp')
+    no-repeat center center/cover;
+  width: 100%;
+  height: 80vh;
+  text-align: center;
+  color: white;
+  padding: 35px;
+}
+
+.mice a {
+  text-decoration: none;
+  color: white;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.mice h1 {
+  font-size: 50px;
+}
+
+.not {
+  background: url('https://assets2.razerzone.com/images/pnx.assets/2fb5601db7a84213129e2f26d31f050f/mercury-blade16-blade18-b-950x580-desktop.webp')
+    no-repeat center center/cover;
+  color: white;
+  width: 100%;
+  height: 50vh;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.cart55 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.cart55 a {
+  text-decoration: none;
+  color: white;
+}
+
+.not2 {
+  background: url('https://assets2.razerzone.com/images/pnx.assets/bbffede42365ea3ed65d0b13ab080c48/more-than-awareness-b-950x580-desktop.webp')
+    no-repeat center center/cover;
+  color: white;
+  width: 100%;
+  height: 50vh;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.not3 {
+  background: url('https://assets2.razerzone.com/images/pnx.assets/bbffede42365ea3ed65d0b13ab080c48/razer-fujin-b-950x580-desktop.webp')
+    no-repeat center center/cover;
+  color: white;
+  width: 100%;
+  height: 50vh;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.not4 {
+  background: url('https://assets2.razerzone.com/images/pnx.assets/bbffede42365ea3ed65d0b13ab080c48/razer-kitsune-sfv-950x580-desktop.webp')
+    no-repeat center center/cover;
+  color: white;
+  width: 100%;
+  height: 50vh;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.not5 {
+  background: url('https://assets2.razerzone.com/images/pnx.assets/ab20c0e7b6887e4438c7bb329c59b288/razer-blade-14-2023-b-950x580-desktop.webp')
+    no-repeat center center/cover;
+  color: white;
+  width: 100%;
+  height: 50vh;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.not6 {
+  background: url('https://assets2.razerzone.com/images/pnx.assets/c5d7d281c387a389b6089421d90c8010/razer-blackwidow-v4-pro-950x580-desktop.webp')
+    no-repeat center center/cover;
+  color: white;
+  width: 100%;
+  height: 50vh;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.admin {
+  border: 2px solid #44d62c;
+  text-align: center;
+  width: 400px;
+  color: red;
+  border-radius: 30px;
+}
+
+.admin img {
+  width: 80px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background: #252525;
+  color: white;
+}
+
+.container {
+  width: 1280px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.cart-icon {
+  color: #fff;
+}
+
+.cart-icon sub {
+  position: relative;
+  bottom: 20px;
+}
+
+.nav {
+  width: 100%;
+  height: 70px;
+
+  background: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.nav img {
+  width: 50px;
+  height: 70px;
+}
+
+.text {
+  display: flex;
+  gap: 50px;
+}
+
+.ota {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 200px;
+}
+
+.ota img {
+  width: 80px;
+  height: 250vh;
+}
+
+.ota p {
+  font-size: 18px;
+}
+
+.abdulloh {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.o1,
+.o2,
+.o3,
+.o4 {
+  text-align: center;
+}
+
+.kichik img {
+  padding: 0 200px;
+  width: 100%;
+  height: 40vh;
+}
+
+.alohida img {
+  width: 100%;
+  height: 40vh;
+  padding: 20px 200px;
+}
+
+.fury {
+  text-align: center;
+  color: greenyellow;
+}
+
+.toxa {
+  color: white;
+  text-align: center;
+}
+
+.abdulloh p {
+  color: #777777;
+}
+
+.ilya {
+  padding: 30px 200px;
+}
+
+.jony {
+  width: 80px;
+  height: 60vh;
+}
+
+.category {
+  font-family: 'Razer F5 Bold';
+  font-size: 35px;
+  margin: 30px 0;
+  border-bottom: 3px solid #44d62c;
+}
+
+.mice-parent {
+  padding: 30px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.mice-children {
+  margin: 40px 0;
+  background: #1b1b1b;
+  height: max-content;
+}
+
+.mice-children img {
+  background: #111;
+  width: 100%;
+  object-fit: cover;
+}
+
+.mice-body {
+  padding: 10px;
+}
+
+.mice-body h3 {
+  min-height: 67px;
+}
+
+.mice-body p {
+  min-height: 55px;
+}
+
+.mice-footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mice-footer button {
+  background: #44d62c;
+  border: none;
+  border-radius: 6px;
+  width: 60px;
+  height: 25px;
+  color: #000;
+  font-family: 'Razer F5 Bold';
+  font-weight: 400;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.mice-footer button:hover {
+  width: 70px;
+  font-size: 17px;
+}
+
+.items {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.item {
+  cursor: pointer;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.item img {
+  height: 80px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.jony {
+  width: 70px;
+  height: 70px;
+}
+
+footer {
+  width: 100%;
+  height: max-content;
+  padding: 40px;
+  background-color: #111;
+}
+
+.footer {
+  display: flex;
+  gap: 60px;
+}
+
+.tak {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  gap: 10px;
+}
+
+.btnA {
+  width: 90px;
+  height: 35px;
+  background: #44d62c;
+  border: none;
+  border-radius: 10px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #1a1a1a;
+  color: white;
+  gap: 50px;
+  height: 120px;
+  width: 100%;
+}
+.life1 {
+  font-size: 14px;
+  color: #fff;
+  padding: 11.5px 40px 9.5px 30px;
+  text-align: center;
+  background: #555555;
+}
+
+.lifestyle {
+  text-align: center;
+  padding: 0 px 30px;
+}
+.lifestyle h1 {
+  color: #44d62c;
+}
+.lifestyle p {
+  color: #888888;
+}
+.chairs {
+  text-align: center;
+  padding: 40px;
+  background: url('https://assets2.razerzone.com/images/pnx.assets/0666dc773bd5460ed41bf6e1a1ebad3a/1920x700-desktop-cat-banner-chairs.webp')
+    no-repeat center center/cover;
+  width: 100%;
+  height: 700px;
+}
+.chairs p {
+  color: #888888;
+}
+.chairs h1 {
+  color: #fff;
+}
+.ANIMATION {
+  text-align: center;
+  padding: 40px;
+  background: url('https://assets2.razerzone.com/images/pnx.assets/f016346e8c8e71ae1ad6731d95943a86/sneki-snek-s2-desktop-cat-banner.jpg')
+    no-repeat center center/cover;
+  width: 100%;
+  height: 700px;
+}
+.ANIMATION p {
+  color: #888888;
+}
+.ANIMATION h1 {
+  color: #fff;
+}
+
+.COMPLETE {
+  text-align: center;
+  padding: 40px;
+  background: url('https://assets2.razerzone.com/images/pnx.assets/cd2d636f26bd91dd99923c71b9e84a83/complete-your-setup-campaign-category-banner-desktop.jpg')
+    no-repeat center center/cover;
+  width: 100%;
+  height: 700px;
+}
+.COMPLETE p {
+  color: #888888;
+}
+.COMPLETE h1 {
+  color: #fff;
+}
+
+.COLLABS {
+  text-align: center;
+  padding: 40px;
+  background: url('https://assets2.razerzone.com/images/pnx.assets/25525a620ccdb5488244fde60674f5e0/collabs-category-1920x700-desktop.jpg')
+    no-repeat center center/cover;
+  width: 100%;
+  height: 600px;
+}
+.COLLABS p {
+  color: #888888;
+}
+.COLLABS h1 {
+  color: #fff;
+}
+
+.APPAREL {
+  text-align: center;
+  padding: 40px;
+  background: url('https://assets2.razerzone.com/images/pnx.assets/9cb7c4425da9e5099bd4e2afebc9b56b/apparel-category-1920x700-desktop.jpg')
+    no-repeat center center/cover;
+  width: 100%;
+  height: 600px;
+}
+.APPAREL p {
+  color: #888888;
+}
+.APPAREL h1 {
+  color: #fff;
+}
+.item {
+  color: white;
+}
+.BAGS {
+  text-align: center;
+  padding: 40px;
+  background: url('https://assets2.razerzone.com/images/pnx.assets/df70fc0371004f9fb85d60a62f905502/lifestyle-bag.jpg')
+    no-repeat center center/cover;
+  width: 100%;
+  height: 600px;
+}
+.BAGS p {
+  color: #888888;
+}
+.BAGS h1 {
+  color: #fff;
+}
+
+.GEAR {
+  text-align: center;
+  padding: 40px;
+  background: url('https://assets2.razerzone.com/images/pnx.assets/3a1137ca109d372509c5a129f0e62483/lifestyle-gear.jpg')
+    no-repeat center center/cover;
+  width: 100%;
+  height: 600px;
+}
+.GEAR p {
+  color: #888888;
+}
+.GEAR h1 {
+  color: #fff;
+}
+
+.MASKS {
+  text-align: center;
+  padding: 40px;
+  background: url('https://assets2.razerzone.com/images/pnx.assets/2bce7b0e7f5425138cb2daf35ff9fa7a/razer-cloth-mask-v2-desktop-cat-banner.jpg')
+    no-repeat center center/cover;
+  width: 100%;
+  height: 600px;
+}
+.MASKS p {
+  color: #888888;
+}
+.MASKS h1 {
+  color: #fff;
+}
+
+.SNEKISNEK {
+  text-align: center;
+  padding: 40px;
+  background: url('https://assets2.razerzone.com/images/pnx.assets/0248d471a2bf516300a5af348fe1655d/lifestyle-sneki-snek.jpg')
+    no-repeat center center/cover;
+  width: 100%;
+  height: 600px;
+}
+.SNEKISNEK p {
+  color: #888888;
+}
+.SNEKISNEK h1 {
+  color: #fff;
+}
+
+.RESPAWN {
+  text-align: center;
+  padding: 40px;
+  background: url('https://assets2.razerzone.com/images/pnx.assets/3bb1bbc90757131821e400fa6ada15dd/lifestyle-respawn.jpg')
+    no-repeat center center/cover;
+  width: 100%;
+  height: 600px;
+}
+.RESPAWN p {
+  color: #888888;
+}
+.RESPAWN h1 {
+  color: #fff;
+}
+
+.ota-admin {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.otaA {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  text-align: center;
+  gap: 10px;
+  padding: 200px 60px;
+}
+
+.cardA img {
+  width: 100px;
+  height: 100px;
+}
+
+.cardA {
+  font-size: 10px;
+  border: 2px solid #2ba818;
+}
+.cardA button {
+  width: 60px;
+  background: none;
+  color: white;
+  border: 1px solid #2ba818;
+}
